@@ -1,0 +1,31 @@
+<!DOCTYPE html>     <!-- identifica um documento html 5--> 
+<html lang="pt-br"> <!-- elemento raiz -->
+    <head> <!-- cabeça da página-->
+        <meta charset="UTF-8"> <!-- sistema de codificação portugues-->
+        <!-- página tera a largura do dispositivo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Profile Card</title>  <!-- titulo da página-->
+        <style>
+            body { 
+                font-family: Arial, sans-serif; /* fonte*/
+                display: flex;   /* usa o FlexBlox para exibir o conteudo*/
+                justify-content: center; /* centraliza na horizontal*/
+                height: 100vh; /* altura da pagina é todo conteudo dela */
+                align-items: center; /* centraliza na vertical*/
+                background-color: gray;
+            }
+            .container {
+                background-color: greenyellow;
+                padding: 20px; /*espaçamento interno*/
+            }
+        </style>
+    </head>
+    <body> <!-- corpo da página-->
+        <div class="container">  <!-- divisão lógica-->
+            <img src="https://placehold.co/150"/>
+            <h2> Arthur Silveira</h2>
+            <P> Engenharia de Software</P>
+            <button> Seguir Perfil</button>
+        </div>
+    </body>
+</html>
