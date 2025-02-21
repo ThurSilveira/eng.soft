@@ -1,0 +1,36 @@
+body { 
+    font-family: Arial, sans-serif; /* fonte*/
+    display: flex;   /* usa o FlexBlox para exibir o conteudo*/
+    justify-content: center; /* centraliza na horizontal*/
+    height: 100vh; /* altura da pagina é todo conteudo dela */
+    align-items: center; /* centraliza na vertical*/
+    background-color: gray;
+}
+.container {
+    background-color: greenyellow;
+    padding: 20px; /*espaçamento interno*/
+    border-radius: 20px;
+    box-shadow: 4px 8px;
+    text-align: center;
+}
+h2 {
+  padding: 5px;
+}
+button {
+    background-color: gray;
+    color: black;
+    border: red;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer; /* mouse vira um ponteiro */
+}
+button:hover {
+    background-color: blueviolet;
+    padding: 5px;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
