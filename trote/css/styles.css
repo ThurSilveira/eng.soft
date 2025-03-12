@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* espaçamento externo da pagina */
+    padding: 0; /* espaçamento intertno da pagina*/
+    background-color: #f4f4f4;
+    text-align: center; /* texto centralizado*/
+
+}
+header {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 0px; /* 15px (espaçamento interno acima e abaixo) e 0px (espaçamento direita e esquerda) */
+    font-size: 24px;
+}
+nav {
+    background: #007bff;
+    padding: 10px; 
+    display: flex; /* flex boxing*/
+    justify-content: space-between; /*espaço ente os elementos do menu*/
+    align-items: center; /*alinhamento na vertical*/
+}
+#links-menu {
+    display: flex;
+    gap: 40px; /*distancia entre os itens do menu*/
+}
